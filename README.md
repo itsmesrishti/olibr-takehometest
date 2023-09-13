@@ -2,7 +2,7 @@
 
 Made desktop version of a landing page.
 
-<a href="https://olibr-test-takehome.onrender.com/">\(View Live Version\)</a>   <a href="https://github.com/itsmesrishti/creatiwise-assignment/blob/main/index.html">\(Link to Solution\)</a>
+<a href="https://olibr-test-takehome.onrender.com/">\(View Live Version\)</a>   <a href="https://github.com/itsmesrishti/olibr-takehometest/tree/main">\(Link to Solution\)</a>
 
 &nbsp;
 ## What's left to do:
