@@ -1,0 +1,49 @@
+/* for non-desktop devices (to not display any content) */
+@media only screen and (max-width: 1023px) {
+    header, main, footer {
+        display: none;
+    }
+    body {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .non-desktop {
+        display: block;
+    }
+    
+}
+@media only screen and (max-width: 912px) and (min-width: 768px) and (min-height: 1024px) {
+    .only-tablets {
+        display: block;
+    }
+    body {
+        gap: 1rem;
+    }
+}
+
+/* for surface duo; to avoid placing info in the center where it folds or hinges */
+@media only screen and (max-width: 720px) and (min-width: 720px) and (min-height: 1114px) {
+    .non-desktop {
+        margin-bottom: 35rem;
+    }
+}
+
+/* changing font-size for mobile devices */
+@media only screen and (max-width: 500px) {
+    html {
+        font-size: 14px;
+    }
+}
+@media only screen and (max-width: 360px) {
+    html {
+        font-size: 12px;
+    }
+}
+@media only screen and (max-width: 280px) {
+    html {
+        font-size: 10px;
+    }
+}
