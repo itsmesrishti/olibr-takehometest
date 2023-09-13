@@ -4,6 +4,9 @@ Made desktop version of a landing page.
 
 <a href="https://olibr-test-takehome.onrender.com/">\(View Live Version\)</a>   <a href="https://github.com/itsmesrishti/olibr-takehometest/tree/main">\(Link to Solution\)</a>
 
+
+![screenshot](landing-page.png)
+
 &nbsp;
 ## What's left to do:
 - Side column
