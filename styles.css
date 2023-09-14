@@ -572,6 +572,7 @@ aside .item .featured-stacks {
 }
 aside .item:nth-of-type(5) h4 {
     text-align: left;
+    font-weight: 500;
 }
 aside .item:nth-of-type(5) i {
     color: red;
