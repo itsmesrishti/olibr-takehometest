@@ -712,3 +712,75 @@ aside .item form button {
 .faq .acc-item {
     overflow: hidden;
 }
+
+
+/* BLOG SECTION */
+.blog-section {
+    padding: 2.7rem 2.2rem 2.2rem 1.8rem;
+    background-color: #f8f9ff;
+}
+.blog-section p {
+    color: #242c33;
+    margin: 1.4rem 0 1.2rem;
+}
+.blog-section .wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: .85rem;
+}
+.blog-section .card {
+    width: 24%;
+    background-color: white;
+}
+.blog-section .thumbnail {
+    width: 100%;
+    height: 11rem;
+}
+.blog-section .author-img {
+    width: 3rem;
+    height: 3rem;
+}
+.blog-section .card-content {
+    width: 100%;
+    padding: 0.2rem 1rem 1rem 1rem;
+}
+.blog-section .author {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+.blog-section .blog-content h5 {
+    font-weight: 400;
+}
+.blog-section .card-content p {
+    font-size: .75rem;
+    margin-top: .3rem;
+    color: #69727e;
+}
+.blog-section .date-published {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.blog-section .date-published i {
+    font-size: .8rem;
+    color: #49a1aa;
+}
+.blog-section .date-published p {
+    margin: 0;
+    font-size: .65rem;
+}
+.blog-section .see-more {
+    display: inline-block;
+    width: 100%;
+    text-decoration: none;
+    color: #49a1aa;
+    font-size: .85rem;
+    font-weight: 300;
+    text-align: right;
+    margin-top: 2rem;
+}
+.blog-section .see-more i {
+    margin-left: .2rem;
+}
