@@ -9,8 +9,7 @@ Made desktop version of a landing page.
 
 &nbsp;
 ## What's left to do:
-- Blog section [*working on it*]
-- Footer
+- Footer [*working on it*]
 - Responsiveness
 
 &nbsp;
