@@ -185,7 +185,8 @@ h2 {
 }
 .candidate-profiles .profile-card {
     padding: .5rem 1.45rem 1.2rem;
-    width: 21.3rem;
+    /* width: 21.3rem; */
+    width: 48%;
     height: 28.4rem;
     background-color: #f8f9fe;
     border: 1px solid #e8ebfd;
@@ -461,7 +462,8 @@ h2 {
 
 /* ASIDE SECTION */
 aside {
-    width: 15rem;
+    /* width: 15rem; */
+    width: 24.7%;
     background-color: #f8f8fb;
     border: 1px solid #e6ebfe;
     padding: .7rem;
