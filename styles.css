@@ -665,3 +665,49 @@ aside .item form button {
     text-transform: none;
     margin: .15rem 0 1.2rem;
 }
+
+
+/* FAQ SECTION */
+.faq {
+    padding: 2.7rem 3.5rem 2.2rem 2.6rem;
+    text-transform: capitalize;
+}
+.faq .accordion {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 2rem 0;
+    font-size: .7rem;
+    gap: 4rem;
+}
+.faq .collapsed {
+    display: none;
+}
+.faq .question {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    gap: .5rem;
+    color: #271a3e;
+}
+.faq hr {
+    margin: 1.2rem 0 1.2rem 1.2rem;
+}
+.faq .answer {
+    margin-left: 1.2rem;
+    color: #382d4b;
+    margin-top: .2rem;
+    line-height: 1.1rem;
+    text-align: justify;
+}
+.faq a {
+    color: #49a1aa;
+    text-decoration: none;
+    font-size: .7rem;
+    text-transform: uppercase;
+}
+.faq a span {
+    text-transform: lowercase;
+}
+.faq .acc-item {
+    overflow: hidden;
+}
