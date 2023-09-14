@@ -691,6 +691,7 @@ aside .item form button {
 }
 .faq hr {
     margin: 1.2rem 0 1.2rem 1.2rem;
+    border: 1px solid #ebecf3;
 }
 .faq .answer {
     margin-left: 1.2rem;
