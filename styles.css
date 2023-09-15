@@ -786,3 +786,109 @@ aside .item form button {
 .blog-section .see-more i {
     margin-left: .2rem;
 }
+
+
+/* DEV TYPES */
+.dev-types {
+    padding: 2.7rem 2.2rem 2.2rem 1.8rem;
+}
+.dev-types h3 {
+    font-weight: 500;
+    font-size: 1.1rem;
+    color: #24404e;
+}
+.dev-types ul {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 3rem;
+    list-style-type: square;
+    font-size: .75rem;
+    margin-left: 1.3rem;
+    margin-top: .6rem;
+    color: #24404e;
+}
+.dev-types ul li::marker {
+    color: #49a1aa;
+    font-size: 1.1rem;
+}
+
+
+/* FOOTER */
+footer {
+    padding: 0rem .7rem;
+}
+footer .socials i {
+    width: 1.5rem;
+    height: 1.5rem;
+    background-color: white;
+    border-radius: 50%;
+    line-height: 1.5rem;
+    text-align: center;
+    color: #191919;
+    margin-top: 1rem;
+    margin-right: .2rem;
+    font-size: .9rem;
+}
+footer img {
+    width: 8.5rem;
+    margin-bottom: .8rem;
+}
+footer .row-1 {
+    background-color: #191919;
+    color: white;
+    padding: 2.5rem 1.8rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+}
+footer p, footer li {
+    font-size: .65rem;
+    line-height: 1.3rem;
+    font-weight: 200;
+    color: #fdfaf9;
+}
+footer .col-1 p {
+    font-size: .7rem;
+}
+footer li a {
+    text-decoration: none;
+    color: #fdfaf9;
+}
+footer li {
+    list-style-type: none;
+    margin-top: .2rem;
+    text-transform: capitalize;
+}
+footer li.mail {
+    text-transform: none;
+    text-decoration: underline;
+    text-underline-offset: .5rem;
+    text-decoration-color: #8c8c8c;
+}
+footer li.mail i {
+    margin-right: .5rem;
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    line-height: .9rem;
+    text-align: center;
+    font-size: .55rem;
+    background-color: #eb5c3a;
+}
+footer h6 {
+    font-weight: 500;
+    font-size: .75rem;
+    letter-spacing: .5px;
+    margin-bottom: 1rem;
+}
+footer .row-2 {
+    background-color: #2d2d2d;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.8rem;
+}
+footer .row-2 ul {
+    display: flex;
+    gap: .5rem;
+}
